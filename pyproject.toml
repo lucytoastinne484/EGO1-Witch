@@ -1,0 +1,54 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "ego1project"
+version = "2024.1.0"
+requires-python = ">=2.4"
+authors = [
+  {name = "lucytoastinne484", email = "https://github.com/lucytoastinne484"},
+]
+maintainers = [
+  {name = "lucytoastinne484", email = "https://lucytoastinne.carrd.co"}
+]
+description = "A package i made to develop the EGO1 project i a simple game a i am making"
+readme = "README.md"
+license = {file = "LICENSE.txt"}
+keywords = ["gamedev","pygame", "python"]
+classifiers = [
+  "Development Status :: 3 - Alpha",
+  "Programming Language :: Python",
+  "Intended Audience :: Developers",
+  "Programming Language :: Python :: 2.4",
+  "Programming Language :: Python :: 2.5",
+  "Programming Language :: Python :: 2.6",
+  "Programming Language :: Python :: 3.1",
+  "Programming Language :: Python :: 3.2",
+  "Programming Language :: Python :: 3.3",
+  "Programming Language :: Python :: 3.4",
+  "Programming Language :: Python :: 3.5",
+  "Programming Language :: Python :: 3.6",
+  "Programming Language :: Python :: 3.7",
+  "Programming Language :: Python :: 3.8",
+  "Programming Language :: Python :: 3.9",
+  "Programming Language :: Python :: 3.10",
+  "Programming Language :: Python :: 3.11",
+  
+]
+
+
+[project.urls]
+carr_co = "https://lucytoastinne.carrd.co"
+Gamepage = "https://github.com/lucytoastinne484/EGO1-Witch"
+Documentation = "https://github.com/lucytoastinne484/EGO1-Witch/blob/main/%23DOCUMENTATION%23.md"
+
+
+[project.scripts]
+spam-cli = "spam:main_cli"
+
+[project.gui-scripts]
+spam-gui = "spam:main_gui"
+
+[project.entry-points."spam.magical"]
+ego1 = "spam:main_ego1project"
