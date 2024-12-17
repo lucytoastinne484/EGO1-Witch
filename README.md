@@ -10,7 +10,7 @@
 
 <div align="center">
   <a href="https://github.com/lucytoastinne484/EGO1-Witch/upload/main/documentation">
-    <img src="images/gametitlepatch2.png" alt="Logo" width="80" height="80">
+    <img src="logo/gametitlepatch2.png" alt="Logo" width="80" height="80">
   </a>
 
 <h1>EGO 1 </h1>
